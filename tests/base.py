@@ -113,6 +113,7 @@ class BaseTapTest(BaseCase):
             },
             'disputes': default,
             'products': default,
+            'refunds': default,
         }
 
     def expected_streams(self):
